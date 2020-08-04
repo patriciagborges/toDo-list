@@ -68,7 +68,7 @@ body {
     justify-content: space-between; 
 }
 
-.todo__tarefas-lista li .checked {
+#todoLista li .checked {
     color: #ccc;
     text-decoration: line-through; 
 }
@@ -93,3 +93,20 @@ body {
     text-transform: uppercase;
     font-weight: bold;
 } 
+
+ul li button{
+
+    color: #000000;
+    font-weight: bold;
+}
+
+ul li button:hover{
+    box-shadow: grey 2px 2px 5px;
+    
+}
+
+label {
+    text-align: left;
+    width: 100%;
+   
+}
